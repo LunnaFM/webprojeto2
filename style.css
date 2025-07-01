@@ -1,0 +1,25 @@
+<link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            background-color: #f9e6f6;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+        button {
+            background-color: #f5bdec;
+            border: none;
+            color: #333;
+            padding: 12px 24px;
+            margin: 10px;
+            border-radius: 25px;
+            font-size: 16px;
+            cursor: pointer;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+            transition: all 0.3s ease;
+        }
+        button:hover {
+            background-color: #e8aadf;
+            transform: translateY(-2px);
+        }
+    </style>
