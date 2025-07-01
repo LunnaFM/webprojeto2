@@ -4,7 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aplicação Web</title>
-    <link rel="stylesheet" href="style.css"> <!-- Se você criar um CSS -->
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            background-color: #f9e6f6;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+        button {
+            background-color: #f5bdec;
+            border: none;
+            color: #333;
+            padding: 12px 24px;
+            margin: 10px;
+            border-radius: 25px;
+            font-size: 16px;
+            cursor: pointer;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+            transition: all 0.3s ease;
+        }
+        button:hover {
+            background-color: #e8aadf;
+            transform: translateY(-2px);
+        }
+    </style>
 </head>
 <body>
     <h1>Escolha um Jogo</h1>
@@ -13,9 +37,11 @@
         <button onclick="jogoMedia()">Cálculo de Média</button>
         <button onclick="jogoSoma()">Soma dos Números</button>
     </div>
+
     <div id="back-button" style="display: none; margin-top: 20px;">
         <button onclick="voltarMenu()">← Voltar ao Menu Inicial</button>
     </div>
+
     <script src="script.js"></script>
 </body>
 </html>
