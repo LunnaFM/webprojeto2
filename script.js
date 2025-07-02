@@ -1,10 +1,10 @@
 function jogoNumerosSecretos() {
-    let numeroSecreto = Math.floor(Math.random() * 101);
-    let tentativas = 10;
+    let numeroSecreto = Math.floor(Math.random() * 11);
+    let tentativas = 5;
     let acertou = false;
 
     while (tentativas > 0 && !acertou) {
-        let palpite = parseInt(prompt(`Tente adivinhar o número secreto (0 a 100). Tentativas restantes: ${tentativas}`));
+        let palpite = parseInt(prompt(`Tente adivinhar o número secreto (0 a 10). Tentativas restantes: ${tentativas}`));
         
         if (palpite === numeroSecreto) {
             alert("Parabéns! Você acertou o número!");
